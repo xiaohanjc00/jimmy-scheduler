@@ -1,0 +1,39 @@
+{
+  "name": "jimmy-scheduler",
+  "version": "1.0.0",
+  "description": "Jimmy bot (Probot) extension to trigger events on a periodic schedule",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage && standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaohanjc00/jimmy-scheduler.git"
+  },
+  "keywords": [
+    "probot"
+  ],
+  "author": "Xiaohan Jiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaohanjc00/jimmy-scheduler/issues"
+  },
+  "homepage": "https://github.com/xiaohanjc00/jimmy-scheduler#readme",
+  "peerDependencies": {
+    "probot": ">=11.0.6"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "dependencies": {
+    "bottleneck": "^2.0.1"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0",
+    "nock": "^13.0.7",
+    "probot": "^11.3.1",
+    "standard": "^12.0.1"
+  }
+}
